@@ -1,5 +1,5 @@
 class Vector_disperso
-	attr_reader :vector
+  attr_reader :vector
 
   #definicion del initialize para crear los hash
 	def initialize(h = {})
@@ -10,7 +10,7 @@ class Vector_disperso
   #definicion del metodo to_s para vector
   def to_s
     @vector.to_s
- 	end
+  end
 
   #definicion del metodo keys para vector
  	def keys
@@ -67,6 +67,7 @@ class Matriz_dispersa < Matriz
     def hash
       @matrix
     end
+  end
 
     #definicion del metodo keys para matrix
   	def keys
@@ -109,12 +110,13 @@ class Matriz_dispersa < Matriz
                 @mul += @matrix[k][i] * other.hash[i][j]
               end
           end
-          h[j] = @mul unless @mul == 0
-          @mul = 0
         end
-        ms[k] = h.clone unless h.empty?
-        h.clear
+        h[j] = @mul unless @mul == 0
+        @mul = 0
       end
-      ms2 = Matriz_dispersa.new(ms)
-   end
+      ms[@k] = h.clone unless h.empty?
+      h.clear
+    end
+    ms2 = Matriz_dispersa.new(ms)
+  end
 end

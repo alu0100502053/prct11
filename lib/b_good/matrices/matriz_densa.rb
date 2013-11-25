@@ -3,11 +3,11 @@ class Matriz_densa < Matriz
   #definicion del metodo para la suma de matrices
 	def +(other)  
 		matriz3 = Array.new(@dimension) {|i|   #creamos un array de arrays, de dimension @dimension, y cuya contenido en la posicion[i][j] será el resultado del bloque.
-    		Array.new(@dimension) {|j|
-      		@matriz[i][j] + other[i][j]
-    		}
-    	}
-   end
+  		Array.new(@dimension) {|j|
+    		@matriz[i][j] + other[i][j]
+  		}
+  	}
+  end
 
    #definicion del metodo para la resta de matrices
    def -(other)  
