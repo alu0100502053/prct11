@@ -1,3 +1,4 @@
+#definicion de la clase matriz
 class Matriz
 	def initialize(*args)  #args recogerá en un array las filas de nuestra matriz.
 		@matriz = Array.new()
@@ -11,6 +12,7 @@ class Matriz
 		@dimension = args.size  #Guardamos en una variable de instancia la dimension de la matriz.
 	end
 	
+	#definicion del metodo maximo
 	def maximo
 		if @matriz.is_a? Array then 
 			max = @matriz[0][0]
@@ -35,6 +37,7 @@ class Matriz
 	   end
 	end
 
+	#definicion del metodo minimo
 	def minimo
 		if @matriz.is_a? Array then
 			min = @matriz[0][0]
@@ -59,18 +62,22 @@ class Matriz
 	   end
 	end
 
-	def +(other)  #Para la suma de matrices
+	#definicion abstracta del metodo para la suma de matrices
+	def +(other)  
 
    end
 
-   def -(other)  #Para la resta de matrices
+   #definicion abstracta del metodo para la resta de matrices
+   def -(other)  
 
    end
 
-   def *(other)  #Para la multiplicacion de matrices
+   #definicion abstracta del metodo para la multiplicacion de matrices
+   def *(other)  
 
    end
 
+   #definicion abstracta del metodo getter con dos argumentos
 	def [] (*ij)  #Recibe un numero de argumentos...
 		
 	end
