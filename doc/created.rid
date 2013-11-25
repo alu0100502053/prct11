@@ -1,0 +1,21 @@
+Mon, 25 Nov 2013 22:35:55 +0000
+./doc/created.rid	Mon, 25 Nov 2013 22:35:55 +0000
+./lib/b_good/matrices/matrices.rb~	Mon, 25 Nov 2013 22:06:48 +0000
+./lib/b_good/matrices/matriz.rb	Mon, 25 Nov 2013 22:17:21 +0000
+./lib/b_good/matrices/matriz_densa.rb	Mon, 25 Nov 2013 22:06:44 +0000
+./lib/b_good/matrices/matriz_dispersa.rb	Mon, 25 Nov 2013 22:32:05 +0000
+./lib/b_good/version.rb	Mon, 25 Nov 2013 21:53:44 +0000
+./lib/b_good/racional/racional.rb	Mon, 25 Nov 2013 22:25:58 +0000
+./lib/b_good/racional/gcd.rb	Mon, 25 Nov 2013 22:18:35 +0000
+./lib/b_good.rb~	Mon, 25 Nov 2013 21:53:44 +0000
+./lib/b_good.rb	Mon, 25 Nov 2013 21:53:44 +0000
+./Gemfile	Mon, 25 Nov 2013 21:53:44 +0000
+./Guardfile	Mon, 25 Nov 2013 21:53:44 +0000
+./Gemfile.lock	Mon, 25 Nov 2013 21:53:44 +0000
+./b_good.gemspec	Mon, 25 Nov 2013 21:53:44 +0000
+./bin/b_good	Mon, 25 Nov 2013 21:53:44 +0000
+./Rakefile	Mon, 25 Nov 2013 21:53:44 +0000
+./test/tc_b_good.rb	Mon, 25 Nov 2013 21:53:44 +0000
+./spec/b_good_spec.rb	Mon, 25 Nov 2013 21:53:44 +0000
+./README.md	Mon, 25 Nov 2013 21:53:44 +0000
+./LICENSE.txt	Mon, 25 Nov 2013 21:53:44 +0000
