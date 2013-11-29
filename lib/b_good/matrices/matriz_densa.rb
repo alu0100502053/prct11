@@ -12,6 +12,17 @@ class Matriz_densa < Matriz
     @dimension = args.size  #Guardamos en una variable de instancia la dimension de la matriz.
   end
   
+
+   def encontrar
+   	@dimension.times {|i|
+   		@dimension.times{|j|
+   			if yield @matriz[i][j] then
+   				return [i,j]
+   			end
+   		}
+   	}
+   end
+
   #definicion del metodo para la suma de matrices
 	def +(other)  
 		matriz3 = Array.new(@dimension) {|i|   #creamos un array de arrays, de dimension @dimension, y cuya contenido en la posicion[i][j] será el resultado del bloque.

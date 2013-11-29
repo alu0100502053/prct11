@@ -116,6 +116,11 @@ describe Matriz_densa do
 		expect { Matriz_densa.new([2,3,3],[1,2,3]) }.to raise_error
 	end
 
+	it "debe encontrar el primer elemento cuadrado mayor que 6" do
+		(@Matriz_densa.encontrar {|e| e*e > 6})[0].should eq(0)
+		(@Matriz_densa.encontrar {|e| e*e > 6})[1].should eq(2)
+	end
+
 	it "Debe poder accederse a los elementos de la Matriz_densa" do
 		@Matriz_densa[0][0].should eq(1)
 		@Matriz_densa[0][1].should eq(2)
